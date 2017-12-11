@@ -5,7 +5,7 @@ FROM jsurf/rpi-raspbian:latest
 MAINTAINER Timur Fatykhov <tfatykhov@gmail.com>
 
 # Compile ARM on x86/x64
-RUN [ "cross-build-start" ]
+# RUN [ "cross-build-start" ]
 
 # Nginx version
 ENV NGINX_VERSION 1.13.7
