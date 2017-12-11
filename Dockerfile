@@ -1,5 +1,5 @@
 # Raspbian with Qemu
-FROM jsurf/rpi-raspbian:latest
+FROM resin/rpi-raspbian:stretch
 
 # Maintainer
 MAINTAINER Timur Fatykhov <tfatykhov@gmail.com>
