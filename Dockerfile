@@ -2,13 +2,13 @@
 FROM jsurf/rpi-raspbian:latest
 
 # Maintainer
-MAINTAINER Wouter De Schuyter <wouter.de.schuyter@gmail.com>
+MAINTAINER Timur Fatykhov <tfatykhov@gmail.com>
 
 # Compile ARM on x86/x64
 RUN [ "cross-build-start" ]
 
 # Nginx version
-ENV NGINX_VERSION 1.13.1
+ENV NGINX_VERSION 1.13.7
 
 # Names & versions of each package
 ENV VERSION_PCRE=pcre-8.40
